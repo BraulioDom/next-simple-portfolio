@@ -4,9 +4,13 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/">Navbar</a>
+                <Link href="/">
+                <a className="navbar-brand">Navbar</a>
+                </Link>
                 <div className="navbar-nav">
-                    <a className="nav-link" href="/blog">blog</a>
+                    <Link href="/blog">
+                    <a className="nav-link">blog</a>
+                    </Link>
                 </div>
             </div>
         </nav>
